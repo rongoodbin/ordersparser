@@ -1,0 +1,9 @@
+id,type,filled_shares,filled_price
+101,ACK,0,0
+101,FILL,50,100.00
+101,FILL,25,100.00
+101,FILL,25,101.22
+104,ACK,0,0
+111,ACK,0,0
+118,REJ,0,0
+111,REJ,0,0
