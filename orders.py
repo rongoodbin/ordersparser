@@ -23,7 +23,7 @@ class Order():
         if reportType == "FILL":
             self.fill(reportdict["filled_shares"])
         if reportType == "REJ":
-            self.isRejected = True
+            self.reject()
 
     def reject(self):
         self.isRejected = True
